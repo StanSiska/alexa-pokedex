@@ -1,0 +1,6 @@
+PokemonIntent who is a {Item}
+PokemonIntent who is an {Item}
+PokemonIntent who is the {Item}
+PokemonIntent what is a {Item}
+PokemonIntent what is an {Item}
+PokemonIntent what is the {Item}

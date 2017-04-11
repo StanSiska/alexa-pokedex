@@ -1,0 +1,160 @@
+RecipeIntent wie kann ich ein {Name} bauen
+RecipeIntent wie kann ich e {Name} bauen
+RecipeIntent wie kann ich en {Name} bauen
+RecipeIntent wie kann ich {Name} bauen
+RecipeIntent wie kann ich ein {Name} craften
+RecipeIntent wie kann ich e {Name} craften
+RecipeIntent wie kann ich en {Name} craften
+RecipeIntent wie kann ich {Name} craften
+RecipeIntent wie kann ich ein {Name} bekommen
+RecipeIntent wie kann ich e {Name} bekommen
+RecipeIntent wie kann ich en {Name} bekommen
+RecipeIntent wie kann ich {Name} bekommen
+RecipeIntent wie kann ich ein {Name} machen
+RecipeIntent wie kann ich e {Name} machen
+RecipeIntent wie kann ich en {Name} machen
+RecipeIntent wie kann ich {Name} machen
+RecipeIntent wie kannst du ein {Name} bauen
+RecipeIntent wie kannst du e {Name} bauen
+RecipeIntent wie kannst du en {Name} bauen
+RecipeIntent wie kannst du {Name} bauen
+RecipeIntent wie kannst du ein {Name} craften
+RecipeIntent wie kannst du e {Name} craften
+RecipeIntent wie kannst du en {Name} craften
+RecipeIntent wie kannst du {Name} craften
+RecipeIntent wie kannst du ein {Name} bekommen
+RecipeIntent wie kannst du e {Name} bekommen
+RecipeIntent wie kannst du en {Name} bekommen
+RecipeIntent wie kannst du {Name} bekommen
+RecipeIntent wie kannst du ein {Name} machen
+RecipeIntent wie kannst du e {Name} machen
+RecipeIntent wie kannst du en {Name} machen
+RecipeIntent wie kannst du {Name} machen
+RecipeIntent wie baue ich ein {Name}
+RecipeIntent wie baue ich e {Name}
+RecipeIntent wie baue ich en {Name}
+RecipeIntent wie baue ich {Name}
+RecipeIntent wie crafte ich ein {Name}
+RecipeIntent wie crafte ich e {Name}
+RecipeIntent wie crafte ich en {Name}
+RecipeIntent wie crafte ich {Name}
+RecipeIntent wie bekomme ich ein {Name}
+RecipeIntent wie bekomme ich e {Name}
+RecipeIntent wie bekomme ich en {Name}
+RecipeIntent wie bekomme ich {Name}
+RecipeIntent wie mache ich ein {Name}
+RecipeIntent wie mache ich e {Name}
+RecipeIntent wie mache ich en {Name}
+RecipeIntent wie mache ich {Name}
+RecipeIntent wie baust du ein {Name}
+RecipeIntent wie baust du e {Name}
+RecipeIntent wie baust du en {Name}
+RecipeIntent wie baust du {Name}
+RecipeIntent wie craftest du ein {Name}
+RecipeIntent wie craftest du e {Name}
+RecipeIntent wie craftest du en {Name}
+RecipeIntent wie craftest du {Name}
+RecipeIntent wie bekommst du ein {Name}
+RecipeIntent wie bekommst du e {Name}
+RecipeIntent wie bekommst du en {Name}
+RecipeIntent wie bekommst du {Name}
+RecipeIntent wie machst du ein {Name}
+RecipeIntent wie machst du e {Name}
+RecipeIntent wie machst du en {Name}
+RecipeIntent wie machst du {Name}
+RecipeIntent wie wird ein {Name} gebaut
+RecipeIntent wie wird e {Name} gebaut
+RecipeIntent wie wird ein {Name} gecraftet
+RecipeIntent wie wird e {Name} gecraftet
+RecipeIntent wie wird ein {Name} gemacht
+RecipeIntent wie wird e {Name} gemacht
+RecipeIntent wie wird {Name} gebaut
+RecipeIntent wie wird {Name} gecraftet
+RecipeIntent wie wird {Name} gemacht
+RecipeIntent Rezept für ein {Name}
+RecipeIntent Rezept für e {Name}
+RecipeIntent Rezept für en {Name}
+RecipeIntent Rezept für {Name}
+RecipeIntent Rezepte für ein {Name}
+RecipeIntent Rezepte für e {Name}
+RecipeIntent Rezepte für en {Name}
+RecipeIntent Rezepte für {Name}
+RecipeIntent was sind die Zutaten für ein {Name}
+RecipeIntent was sind die Zutaten für e {Name}
+RecipeIntent was sind die Zutaten für en {Name}
+RecipeIntent was sind die Zutaten für {Name}
+RecipeIntent was brauche ich für ein {Name}
+RecipeIntent was brauche ich für e {Name}
+RecipeIntent was brauche ich für en {Name}
+RecipeIntent was brauche ich für {Name}
+RecipeIntent was brauche ich zum Bau eines {Name}
+RecipeIntent was brauche ich zum Bau einer {Name}
+RecipeIntent was brauche ich zum Bau von {Name}
+RecipeIntent was brauche ich zum Craften eines {Name}
+RecipeIntent was brauche ich zum Craften einer {Name}
+RecipeIntent was brauche ich zum Craften von {Name}
+RecipeIntent was muss ich für ein {Name} bekommen
+RecipeIntent was muss ich für e {Name} bekommen
+RecipeIntent was muss ich für en {Name} bekommen
+RecipeIntent was muss ich für {Name} bekommen
+RecipeIntent was muss ich zum Bau eines {Name} besorgen
+RecipeIntent was muss ich zum Bau einer {Name} besorgen
+RecipeIntent was muss ich zum Bau von {Name} besorgen
+RecipeIntent was muss ich zum Craften eines {Name} besorgen
+RecipeIntent was muss ich zum Craften einer {Name} besorgen
+RecipeIntent was muss ich zum Craften von {Name} besorgen
+RecipeIntent was muss ich zum Herstellen eines {Name} besorgen
+RecipeIntent was muss ich zum Herstellen einer {Name} besorgen
+RecipeIntent was muss ich zum Herstellen von {Name} besorgen
+RecipeIntent was muss ich zum Bau eines {Name} haben
+RecipeIntent was muss ich zum Bau einer {Name} haben
+RecipeIntent was muss ich zum Bau von {Name} haben
+RecipeIntent was muss ich zum Craften eines {Name} haben
+RecipeIntent was muss ich zum Craften einer {Name} haben
+RecipeIntent was muss ich zum Craften von {Name} haben
+RecipeIntent was muss ich zum Herstellen eines {Name} haben
+RecipeIntent was muss ich zum Herstellen einer {Name} haben
+RecipeIntent was muss ich zum Herstellen von {Name} haben
+RecipeIntent was brauche ich zum Herstellen eines {Name}
+RecipeIntent was brauche ich zum Herstellen einer {Name}
+RecipeIntent was brauche ich zum Herstellen von {Name}
+RecipeIntent was brauche ich für ein {Name}
+RecipeIntent was brauche ich für e {Name}
+RecipeIntent was brauche ich für en {Name}
+RecipeIntent was brauche ich für {Name}
+RecipeIntent welche Zutaten brauche ich zum Bau eines {Name}
+RecipeIntent welche Zutaten brauche ich zum Bau einer {Name}
+RecipeIntent welche Zutaten brauche ich zum Bau von {Name}
+RecipeIntent welche Zutaten brauche ich zum Craften eines {Name}
+RecipeIntent welche Zutaten brauche ich zum Craften einer {Name}
+RecipeIntent welche Zutaten brauche ich zum Craften von {Name}
+RecipeIntent welche Zutaten brauche ich zum Herstellen eines {Name}
+RecipeIntent welche Zutaten brauche ich zum Herstellen einer {Name}
+RecipeIntent welche Zutaten brauche ich zum Herstellen von {Name}
+RecipeIntent was ist in einem {Name}
+RecipeIntent was ist in einer {Name}
+RecipeIntent was ist in {Name}
+RecipeIntent was ist das Rezept für ein {Name}
+RecipeIntent was ist das Rezept für e {Name}
+RecipeIntent was ist das Rezept für en {Name}
+RecipeIntent was ist das Rezept für {Name}
+RecipeIntent was ist in {Name}
+RecipeIntent was ist in einem {Name}
+RecipeIntent was ist in einer {Name}
+RecipeIntent was ist in {Name}
+RecipeIntent welches Rezept für ein {Name}
+RecipeIntent welches Rezept für e {Name}
+RecipeIntent welches Rezept für en {Name}
+RecipeIntent welches Rezept für {Name}
+RecipeIntent wie soll {Name} gecraftet werden
+RecipeIntent wie soll ein {Name} gecraftet werden
+RecipeIntent wie soll e {Name} gecraftet werden
+RecipeIntent wie soll ein {Name} gemacht werden
+RecipeIntent wie soll e {Name} gemacht werden
+RecipeIntent wie soll {Name} gemacht werden
+RecipeIntent wie soll ein {Name} gebaut werden
+RecipeIntent wie soll e {Name} gebaut werden
+RecipeIntent wie soll {Name} gebaut werden
+RecipeIntent wie soll ein {Name} bezogen werden
+RecipeIntent wie soll e {Name} bezogen werden
+RecipeIntent wie soll {Name} bezogen werden

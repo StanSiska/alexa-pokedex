@@ -1,0 +1,25 @@
+{
+  "intents": [
+    {
+      "intent": "PokemonIntent",
+      "slots": [
+        {
+          "name": "Item",
+          "type": "LIST_OF_POKEMONS"
+        }
+      ]
+    },
+    {
+      "intent": "AMAZON.RepeatIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}
