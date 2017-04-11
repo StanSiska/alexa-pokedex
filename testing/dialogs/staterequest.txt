@@ -1,0 +1,5 @@
+LaunchRequest
+PokemonIntent usstate=Bulbasaur
+PokemonIntent Charizard
+AMAZON.HelpIntent
+AMAZON.StopIntent

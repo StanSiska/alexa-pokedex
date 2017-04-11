@@ -3,10 +3,12 @@
 var Alexa = require('alexa-sdk');
 var APP_ID = "amzn1.ask.skill.ee611a5b-a423-420e-a4b1-d024b95244b1"; // TODO replace with your app ID (OPTIONAL).
 var pokemons = require('./pokemon-skills');
+var pokepower = require('./pokemon-powers');
 
 exports.handler = function(event, context, callback) {
     var alexa = Alexa.handler(event, context);
     alexa.APP_ID = APP_ID;
+    // alexa.dynamoDBTableName = 'YourTableName';           // For DynamoDB calls ---> That's it! More @ https://github.com/alexa/alexa-skills-kit-sdk-for-nodejs
 
     // To enable string internationalization (i18n) features, set a resources object.
     alexa.resources = languageStrings;
@@ -23,21 +25,22 @@ var handlers = {
         this.attributes['speechOutput'] = this.t("WELCOME_MESSAGE", this.t("SKILL_NAME"));
         // If the user either does not reply to the welcome message or says something that is not
         // understood, they will be prompted again with this text.
+
         this.attributes['repromptSpeech'] = this.t("WELCOME_REPROMPT");
         this.emit(':ask', this.attributes['speechOutput'], this.attributes['repromptSpeech'])
     },
 
-    'PokemonIntent': function () {
+    'PokemonListIntent': function () {
         var itemSlot = this.event.request.intent.slots.Item;
         var itemName;
         if (itemSlot && itemSlot.value) {
             itemName = itemSlot.value.toLowerCase();
         }
 
-        var pokemons = this.t("POKEMONS");
+        var pokemons = this.t("POKEMONS");          // Finds in pokemon-skills.js appropriate language
         var cardTitle = this.t("DISPLAY_CARD_TITLE", this.t("SKILL_NAME"), itemName);
 
-        var pokemon_desc = pokemons[itemName];
+        var pokemon_desc = pokemons[itemName];      // Find Pokemon and his description
 
         if (pokemon_desc) {
             this.attributes['speechOutput'] = pokemon_desc;
@@ -59,6 +62,40 @@ var handlers = {
             this.emit(':ask', speechOutput, repromptSpeech);
         }
     },
+    'PokemonPowerIntent': function () {
+        var powerSlot = this.event.request.intent.slots.Power;
+        var powerName;
+        if (powerSlot && powerSlot.value) {
+            powerName = powerSlot.value.toLowerCase();
+        }
+
+        var poke_power = this.t("POKEMONS");          // Finds in pokemon-skills.js appropriate language
+        var cardTitle = this.t("DISPLAY_CARD_TITLE", this.t("SKILL_NAME"), powerName);
+
+        var pokemon_power = pokemons[powerName];      // Find Pokemon and his description
+
+        if (pokemon_power) {
+            this.attributes['speechOutput'] = pokemon_power;
+            this.attributes['repromptSpeech'] = this.t("REPEAT_MESSAGE");
+            this.emit(':tellWithCard', pokemon_desc, this.attributes['repromptSpeech'], cardTitle, pokemon_power);
+        } else {
+            var speechOutput = this.t("POKEMON_NOT_FOUND_MESSAGE");
+            var repromptSpeech = this.t("POKEMON_NOT_FOUND_REPROMPT");
+            if (powerName) {
+                speechOutput += this.t("POKEMON_NOT_FOUND_WITH_ITEM_NAME", powerName);
+            } else {
+                speechOutput += this.t("POKEMON_NOT_FOUND_WITHOUT_ITEM_NAME");
+            }
+            speechOutput += repromptSpeech;
+
+            this.attributes['speechOutput'] = speechOutput;
+            this.attributes['repromptSpeech'] = repromptSpeech;
+
+            this.emit(':ask', speechOutput, repromptSpeech);
+        }
+    },
+
+
     'AMAZON.HelpIntent': function () {
         this.attributes['speechOutput'] = this.t("HELP_MESSAGE");
         this.attributes['repromptSpeech'] = this.t("HELP_REPROMPT");
