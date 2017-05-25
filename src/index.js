@@ -62,6 +62,7 @@ var handlers = {
             this.emit(':ask', speechOutput, repromptSpeech);
         }
     },
+
     'PokemonPowerIntent': function () {
         var powerSlot = this.event.request.intent.slots.Power;
         var powerName;
@@ -69,10 +70,10 @@ var handlers = {
             powerName = powerSlot.value.toLowerCase();
         }
 
-        var poke_power = this.t("POKEMONS");          // Finds in pokemon-skills.js appropriate language
+        const pokepower = this.t("POKEMONS");          // Finds in pokemon-skills.js appropriate language
         var cardTitle = this.t("DISPLAY_CARD_TITLE", this.t("SKILL_NAME"), powerName);
 
-        var pokemon_power = pokemons[powerName];      // Find Pokemon and his description
+        var pokemon_power = pokepower[powerName];      // Find Pokemon and his description
 
         if (pokemon_power) {
             this.attributes['speechOutput'] = pokemon_power;
